@@ -18,7 +18,9 @@ let task = session.dataTask(with: request) { (data, response, error) in
 
    }
 }
-task.resume()` Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
+task.resume()` 
+
+Paste the README template for part 2 of this assignment here at the top. This will show a history of your development process, which users stories you completed and how your app looked and functioned at each step.
 
 ---
 
@@ -41,4 +43,5 @@ task.resume()` Paste the README template for part 2 of this assignment here at t
 
 ### Notes
 Describe any challenges encountered while building the app.
+
 I realized I accidently made two TableViews on top of each other and was assigning different labels to each without knowing, so I had to go back and redo a lot to get a clean storyboard and code.
